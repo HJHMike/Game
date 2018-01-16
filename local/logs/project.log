@@ -1,0 +1,98 @@
+2018-01-11T10:13:37.773Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-11T10:13:37.777Z - normal: checking language setting...
+2018-01-11T10:13:37.777Z - normal: Language: zh
+2018-01-11T10:13:38.560Z - success: protocol editor-framework registered
+2018-01-11T10:13:38.560Z - success: protocol app registered
+2018-01-11T10:13:38.560Z - success: protocol theme registered
+2018-01-11T10:13:38.560Z - success: protocol packages registered
+2018-01-11T10:13:38.560Z - success: protocol unpack registerred
+2018-01-11T10:13:38.560Z - success: protocol disable-commonjs registerred
+2018-01-11T10:13:38.866Z - normal: connected!
+2018-01-11T10:13:38.869Z - normal: Check project /Users/huangjiheng/Downloads/start_project
+2018-01-11T10:13:38.871Z - normal: Initializing Cocos2d
+2018-01-11T10:13:39.099Z - normal: Initializing Asset Database
+2018-01-11T10:13:39.134Z - success: protocol uuid registerred
+2018-01-11T10:13:39.134Z - success: protocol db registerred
+2018-01-11T10:13:39.134Z - success: protocol thumbnail registerred
+2018-01-11T10:13:39.134Z - normal: Loading editor/builtin packages
+2018-01-11T10:13:39.158Z - success: anysdk loaded
+2018-01-11T10:13:39.277Z - success: assets loaded
+2018-01-11T10:13:39.281Z - success: builder loaded
+2018-01-11T10:13:39.283Z - success: cocos-analytics loaded
+2018-01-11T10:13:39.288Z - success: console loaded
+2018-01-11T10:13:39.293Z - success: hierarchy loaded
+2018-01-11T10:13:39.298Z - success: inspector loaded
+2018-01-11T10:13:39.300Z - success: keystore loaded
+2018-01-11T10:13:39.304Z - success: node-library loaded
+2018-01-11T10:13:39.307Z - success: package-asset loaded
+2018-01-11T10:13:39.309Z - success: preferences loaded
+2018-01-11T10:13:39.312Z - success: project-exporter loaded
+2018-01-11T10:13:39.329Z - success: project-importer loaded
+2018-01-11T10:13:39.333Z - success: project-settings loaded
+2018-01-11T10:13:39.336Z - success: ui-kit loaded
+2018-01-11T10:13:39.341Z - success: ui-grid loaded
+2018-01-11T10:13:39.346Z - success: scene loaded
+2018-01-11T10:13:39.347Z - success: sprite-editor loaded
+2018-01-11T10:13:39.352Z - success: store loaded
+2018-01-11T10:13:39.358Z - success: timeline loaded
+2018-01-11T10:13:39.358Z - normal: Loading builtin packages
+2018-01-11T10:13:39.362Z - success: asset-db-debugger loaded
+2018-01-11T10:13:39.363Z - success: color-picker loaded
+2018-01-11T10:13:39.367Z - success: package-manager loaded
+2018-01-11T10:13:39.372Z - success: sdkbox loaded
+2018-01-11T10:13:39.377Z - success: tester loaded
+2018-01-11T10:13:39.381Z - success: ui-kit-preview-extra loaded
+2018-01-11T10:13:39.385Z - success: ui-kit-preview loaded
+2018-01-11T10:13:39.388Z - success: ui-tree loaded
+2018-01-11T10:13:40.583Z - normal: Initializing project /Users/huangjiheng/Downloads/start_project
+2018-01-11T10:13:40.585Z - normal: Loading packages
+2018-01-11T10:13:40.591Z - normal: Watching packages
+2018-01-11T10:13:40.603Z - normal: Run Application
+2018-01-11T10:13:41.560Z - success: preview server running at http://localhost:7456
+2018-01-11T10:13:46.343Z - normal: 1.8.0
+2018-01-12T11:11:38.434Z - failed: [db-task][sync-changes] Failed to import asset /Users/huangjiheng/Downloads/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/huangjiheng/Downloads/start_project/assets/scripts/Game.js: Unexpected token, expected , (39:9)
+  37 |          }
+  38 |          // 得分音效资源
+> 39 |          scoreAudio: {
+     |          ^
+  40 |              default: null,
+  41 |              url: cc.AudioClip
+  42 |          }
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-01-12T11:13:14.907Z - failed: [db-task][sync-changes] Failed to import asset /Users/huangjiheng/Downloads/start_project/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/huangjiheng/Downloads/start_project/assets/scripts/Game.js: Unexpected token, expected , (39:9)
+  37 |          }
+  38 |          // 得分音效资源
+> 39 |          scoreAudio: {
+     |          ^
+  40 |              default: null,
+  41 |              url: cc.AudioClip
+  42 |          }
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp.expect (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1749:33)
+    at Parser.pp$3.parseObj (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+2018-01-12T11:14:15.679Z - failed: Failed to drop asset dc194f1a-c8a5-46ca-aaf9-f03b70974af5, message: Error: Can not create node from cc.AudioClip
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils.js:1:383
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:130:25
+    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-01-12T11:23:36.016Z - success: VS Code extension installed to /Users/huangjiheng/.vscode/extensions
+2018-01-12T11:23:45.052Z - success: VS Code extension installed to /Users/huangjiheng/.vscode/extensions
+2018-01-12T11:24:22.324Z - success: API data generated and copied to /Users/huangjiheng/Downloads/start_project/creator.d.ts
+2018-01-12T11:38:04.341Z - info: shutdown preview server

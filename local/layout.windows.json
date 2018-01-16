@@ -1,0 +1,90 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 0,
+      "y": 23,
+      "width": 1280,
+      "height": 705,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 300,
+                "type": "panel",
+                "width": 204
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 310.984375,
+                "type": "panel",
+                "width": 204
+              }
+            ],
+            "height": 614,
+            "type": "dock-v",
+            "width": 204
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 614,
+            "type": "panel",
+            "width": 304
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 305.984375,
+                "type": "panel",
+                "width": 760
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "node-library",
+                  "timeline"
+                ],
+                "height": 305,
+                "type": "panel",
+                "width": 760
+              }
+            ],
+            "height": 614,
+            "type": "dock-v",
+            "width": 760
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "inspector",
+        "console",
+        "node-library",
+        "hierarchy",
+        "assets",
+        "scene",
+        "timeline"
+      ]
+    }
+  },
+  "panels": {}
+}
